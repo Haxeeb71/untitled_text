@@ -19,7 +19,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v3 # Use v3 for OIDC support
         with:
-          role-to-assume: arn:aws:iam::YOUR_ACCOUNT_ID:role/GitHubAction-S3-Deploy
+          role-to-assume: arn:aws:iam::559198857091:role/GitHubAction-S3-Deploy
           aws-region: eu-north-1
 
       - name: deploy static site to s3 bucket
